@@ -1,0 +1,330 @@
+.h_left,
+.h_right {
+	font-size: 2em;
+}
+
+.h_l_and_r {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.h_left {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.h_left div,
+.h_right div {
+	padding: 25px;
+}
+
+.h_left div:hover,
+.h_right div:hover {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+
+.section_src1_class {
+	width: 100%;
+	position: relative;
+}
+
+.section_class_1 {
+
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 450px;
+
+	margin: auto;
+	color: white;
+}
+
+.section_class_1 h1 {
+	font-size: 4em;
+}
+
+.section_class_1 p {
+	font-size: 2em;
+}
+
+.parent_section_class_1 {
+
+	width: 300px;
+	margin: auto;
+}
+
+.section_w_80_px {
+	width: 70%;
+	margin: auto;
+}
+
+.section_w_80_px i,
+.section_w_80_px p {
+	font-size: 1.5em;
+	padding-top: 25px;
+	text-align: justify;
+}
+
+.section_w_80_px h1 {
+	font-size: 2.5em;
+	padding-bottom: 25px;
+	margin-top: 75px;
+	text-align: center;
+}
+
+.text_align_flex {
+	text-align: center;
+}
+
+.section_img {
+	width: 70%;
+	margin: auto;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin-top: 150px;
+}
+
+.section9 {
+
+
+	margin-top: 150px;
+	background-color: black;
+	padding-top: 75px;
+	color: white;
+
+}
+
+.section9 h1,
+.section9 i {
+
+	text-align: center;
+}
+
+.section h1 {
+	font-size: 2em;
+}
+
+.section9 i {
+	color: #999999;
+
+}
+
+.section9_child {
+
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+.section9_child h1 {
+	margin-bottom: 40px;
+
+}
+
+.section9_child i {
+
+	font-size: 1.9em;
+}
+
+.dates_concert {
+	background-color: white;
+}
+
+.dates_concert {
+	color: grey;
+	text-align: left;
+}
+
+.display_flex {
+	display: flex;
+	margin-top: 50px;
+	font-size: 1.9em;
+}
+
+.display_flex div {
+	margin-top: 10px;
+}
+
+.class_red {
+	background-color: red;
+	padding: 10px;
+	color: white;
+	margin-left: 50px;
+}
+
+.display_one {
+	padding: 10px;
+}
+
+
+.all_img {
+	width: 500px;
+	background-color: white;
+	color: black;
+	margin: 20px;
+}
+
+.all_img img {
+	width: 100%;
+	background-color: black;
+}
+
+.all_img img:hover {
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.mimages {
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.mimages {
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.all_img h1 {
+	margin-top: 25px;
+}
+
+.all_img p,
+.all_img div {
+	margin: 25px;
+	font-size: 1.3em;
+}
+
+
+
+.my_select {
+	width: 100%;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	color: #999999;
+	font-size: 3em;
+	width: 500px;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.btycket {
+	background-color: black;
+	color: white;
+	width: 30%;
+	margin: auto;
+	padding: 20px;
+}
+
+.btycket:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+	.section_w_80_px {
+		width: 80%;
+		margin: auto;
+	}
+
+	.section_img {
+		width: 100%;
+		display: block;
+	}
+
+	.section_class_1 {
+		position: relative;
+		top: -100px;
+		text-align: center;
+		width: 450px;
+		margin: auto;
+		color: white;
+	}
+
+
+	.mimages {
+		display: block;
+
+		width: 90%;
+
+	}
+
+	.all_img {
+
+
+		width: 100%;
+		padding-bottom: 50px;
+
+
+	}
+
+
+}
+
+.contact {
+	width: 70%;
+	margin: auto;
+
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.contact_child {
+	font-size: 1.8em;
+	text-align: left;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+
+.contact_text {
+	width: 100%;
+	margin-top: 20px;
+}
+
+input {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+textarea {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+::placeholder {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.send {
+	padding: 15px;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+
+.send:hover {
+	cursor: pointer;
+}
+
+.fa:hover {
+	cursor: pointer;
+	color: black;
+}

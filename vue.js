@@ -45,43 +45,17 @@ var section = new Vue({
     section5:"We love music",
     section7:"Name",
      
-    section9:"TOUR DATES",
+    
     section10:"Remember to book your tickets!",
     section1_text:"The atmosphere in New York is lorem ipsum.",
     section2_text:"Thank you, Chicago - A night we won't forget.",
     section3_text:"We had the best time playing at Venice Beach!",
 
-
     section_src1:"http://bokonzi.com/allimg/uploads/chicago.jpg",
     section_src2:"http://bokonzi.com/allimg/uploads/la%20(1).jpg",
     section_src3:"http://bokonzi.com/allimg/uploads/ny.jpg",
-    section_src4:"",
-    section_src5:"",
-    section_src6:"",
-    section_src7:"",
-    section_src8:"",
+    tour_dates:"TOUR DATES"
 
-
-    section4_text:"",
-    section5_text:"",
-
-    section_class_1:"",
-    section_class_2:"",
-    section_class_3:"",
-    section_class_4:"",
-    section_class_5:"",
-
-    section6:"",
-    section6:"",
-    section7:"",
-    section8:"",
-    section9:"",
-
-    section_class_6:"",
-    section_class_6:"",
-    section_class_7:"",
-    section_class_8:"",
-    section_class_9:"",
   }
 })
 
